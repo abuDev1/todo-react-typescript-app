@@ -1,0 +1,94 @@
+body {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.header {
+  margin-top: 30px;
+}
+
+.forms {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin: 30px auto;
+}
+
+.forms > input {
+  border: none;
+  border-radius: 5px;
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+.addTodo {
+  width: 65%;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+.addButton {
+  padding: 0 15px;
+  width: 15%;
+  border: none;
+  background-color: rgb(86, 102, 252);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo_container {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin: auto;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 5px;
+  padding: 8px;
+  align-items: center;
+}
+
+.fix {
+  border: none;
+  background-color: transparent;
+}
+
+.fix > img {
+  width: 20px;
+  cursor: pointer;
+}
+
+.delete {
+  border: none;
+  background-color: transparent;
+}
+
+.delete > img {
+  width: 20px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: bisque;
+  border-radius: 5px;
+  padding: 8px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.checkbox {
+  margin: 10px;
+  align-items: center;
+}
